@@ -3505,15 +3505,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_chest_from_honeycomb": {
+  "minecraft:recipes/building_blocks/waxed_copper_golem_statue_from_honeycomb": {
     "criteria": {
-      "has_oxidized_copper_chest": "2025-12-07 18:52:22 +0100"
+      "has_copper_golem_statue": "2025-12-07 18:50:54 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/diamond": {
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_chest_from_honeycomb": {
     "criteria": {
-      "has_diamond_block": "2025-12-07 19:29:33 +0100"
+      "has_oxidized_copper_chest": "2025-12-07 18:52:22 +0100"
     },
     "done": true
   },
@@ -3523,9 +3523,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_golem_statue_from_honeycomb": {
+  "minecraft:recipes/misc/diamond": {
     "criteria": {
-      "has_copper_golem_statue": "2025-12-07 18:50:54 +0100"
+      "has_diamond_block": "2025-12-07 19:29:33 +0100"
     },
     "done": true
   },
