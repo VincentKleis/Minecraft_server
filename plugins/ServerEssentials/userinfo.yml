@@ -1,17 +1,17 @@
 0f201cb7-ddd9-4c19-a676-493b11b5cc44:
-  login: 1765297652500
+  login: 1765298539827
   money: 0.0
   balancehidden: false
   silent: false
-  logout: 1765297674204
+  logout: 1765298562073
   logoutLocation:
     ==: org.bukkit.Location
     world: world_nether
-    x: 25.523801522720387
-    y: 98.0
-    z: 4.437174871634852
-    pitch: -81.45017
-    yaw: 174.75111
+    x: 25.693362120351928
+    y: 102.0
+    z: 1.5452707136246888
+    pitch: 4.049863
+    yaw: -84.448845
 a03a6154-f540-4859-884b-10b71f5c3330:
   login: 1765140842601
   money: 0.0
