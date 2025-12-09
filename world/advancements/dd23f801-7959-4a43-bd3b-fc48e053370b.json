@@ -877,6 +877,7 @@
       "minecraft:piglin": "2025-12-01 19:49:56 +0100",
       "minecraft:creaking": "2025-12-04 21:28:51 +0100",
       "minecraft:enderman": "2025-11-29 22:54:12 +0100",
+      "minecraft:magma_cube": "2025-12-09 23:15:39 +0100",
       "minecraft:spider": "2025-11-29 12:32:53 +0100",
       "minecraft:piglin_brute": "2025-12-01 20:24:03 +0100",
       "minecraft:zombie": "2025-11-28 18:30:59 +0100",
@@ -2873,12 +2874,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_copper_trapdoor": "2025-11-30 00:20:17 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_weathered_copper_grate_from_honeycomb": {
     "criteria": {
       "has_weathered_copper_grate": "2025-11-30 00:42:46 +0100"
@@ -3520,12 +3515,6 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-12-01 17:46:07 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_exposed_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_exposed_copper_trapdoor": "2025-12-01 18:26:15 +0100"
     },
     "done": true
   },
@@ -4557,5 +4546,83 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-12-09 20:12:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2025-12-09 20:13:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_spear": {
+    "criteria": {
+      "has_diamond": "2025-12-09 20:15:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2025-12-09 21:02:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-12-10 00:06:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-12-09 21:24:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_spear": {
+    "criteria": {
+      "has_gold_ingot": "2025-12-09 22:53:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2025-12-09 22:14:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-12-10 00:06:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-12-10 00:09:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-12-10 00:09:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2025-12-09 21:20:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-12-10 00:09:45 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
