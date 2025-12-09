@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "dd23f801-7959-4a43-bd3b-fc48e053370b",
+    "name": "MikroOrganismen",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0f201cb7-ddd9-4c19-a676-493b11b5cc44",
+    "name": "VincentWater",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a03a6154-f540-4859-884b-10b71f5c3330",
+    "name": "Lizzyluve",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
