@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "d853836e-f5d7-4f78-b916-523698cd1f5e",
+    "name": "Susa9414",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "dd23f801-7959-4a43-bd3b-fc48e053370b",
     "name": "MikroOrganismen",
     "level": 4,

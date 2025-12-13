@@ -1,81 +1,205 @@
-[00:02:19] [Async Chat Thread - #48/INFO]: <MikroOrganismen> Omg! Tuller du? De er forferdlige
-[00:03:14] [Async Chat Thread - #47/INFO]: <Lizzyluve> Nei, det var i hvert fall tre stykker som gjorde det på nesten rett etter hverandre! Jeg falt nesten i lava pga den ene
-[00:21:20] [Server thread/INFO]: MikroOrganismen burned to death
-[00:21:44] [Async Chat Thread - #50/INFO]: <MikroOrganismen> Nå orker jeg ikke mer bro T_T
-[00:21:46] [Async Chat Thread - #49/INFO]: <MikroOrganismen> Natta
-[00:21:50] [Async Chat Thread - #50/INFO]: <Lizzyluve> natta
-[00:21:50] [Server thread/INFO]: MikroOrganismen lost connection: Disconnected
-[00:21:50] [Server thread/INFO]: [0;35;1m([0;35;22m[21mStaff[0;35;1m) MikroOrganismen [0;37;22mhas quit the game[m
-[00:21:50] [Server thread/INFO]: [-] MikroOrganismen
-[00:24:15] [Netty NIO IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50)
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14)
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26)
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:508)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:351)
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:340)
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:318)
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:312)
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:147)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[00:26:42] [Server thread/INFO]: Lizzyluve has made the advancement [Those Were the Days]
-[00:28:23] [Server thread/INFO]: Lizzyluve issued server command: /home Lizzyluve
-[00:29:42] [Server thread/INFO]: Lizzyluve issued server command: /stop
-[00:29:42] [Server thread/INFO]: [Lizzyluve: Stopping the server]
-[00:29:42] [Server thread/INFO]: Stopping server
-[00:29:42] [Server thread/INFO]: [ServerEssentials] Disabling ServerEssentials v2.2.9
-[00:29:42] [Server thread/INFO]: [0;37;22m*********************[m
-[00:29:42] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mServer Essentials has been disabled.[m
-[00:29:42] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mConfig.yml has been uninitialised.[m
-[00:29:42] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mPlaceholderAPI has been disabled.[m
-[00:29:42] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mVault has been disabled.[m
-[00:29:42] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mCommands have been disabled.[m
-[00:29:42] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mEvents have been disabled.[m
-[00:29:42] [Server thread/INFO]: [0;37;22m*********************[m
-[00:29:42] [Server thread/INFO]: [Vault] Disabling Vault v2.17.0
-[00:29:42] [Server thread/INFO]: [SleepNotify] Disabling SleepNotify v4.0
-[00:29:42] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
-[00:29:42] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[00:29:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
-[00:29:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:29:42] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:29:42] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:29:42] [Server thread/INFO]: [ChallengingDeathRecovery] Disabling ChallengingDeathRecovery v1.0-SNAPSHOT
-[00:29:42] [Server thread/INFO]: Saving players
-[00:29:42] [Server thread/INFO]: Lizzyluve lost connection: Server closed
-[00:29:42] [Server thread/INFO]: Lizzyluve left the game.
-[00:29:42] [Server thread/INFO]: Saving worlds
-[00:29:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:29:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:29:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:19:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[12:19:43] [ServerMain/INFO]: Loaded 1470 recipes
+[12:19:43] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[12:19:43] [Server thread/INFO]: Loading properties
+[12:19:43] [Server thread/INFO]: This server is running CraftBukkit version 4573-Spigot-66411b9-d7d8774 (MC: 1.21.11) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[12:19:44] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[12:19:44] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[12:19:44] [Server thread/INFO]: Debug logging is disabled
+[12:19:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:19:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:19:44] [Server thread/INFO]: Default game type: SURVIVAL
+[12:19:44] [Server thread/INFO]: Generating keypair
+[12:19:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:19:44] [Server thread/INFO]: [ChallengingDeathRecovery] Loading ChallengingDeathRecovery v1.0-SNAPSHOT
+[12:19:44] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.17
+[12:19:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:19:44] [Server thread/INFO]: [Chunky] Loading Chunky v1.4.40
+[12:19:44] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.7
+[12:19:44] [Server thread/INFO]: [SleepNotify] Loading SleepNotify v4.0
+[12:19:44] [Server thread/INFO]: [Vault] Loading Vault v2.17.0
+[12:19:44] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.30.3
+[12:19:44] [Server thread/INFO]: [ServerEssentials] Loading ServerEssentials v2.2.9
+[12:19:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[12:19:45] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[12:19:45] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.5.17[m
+[12:19:45] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[12:19:45] [Server thread/INFO]: [m
+[12:19:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:19:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:19:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:19:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 773ms)
+[12:19:45] [Server thread/INFO]: [Vault] Enabling Vault v2.17.0
+[12:19:45] [Server thread/INFO]: [Vault] Enabled Version 2.17.0
+[12:19:45] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[12:19:45] [Server thread/INFO]: Preparing level "world"
+[12:19:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:19:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:19:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:19:45] [Server thread/INFO]: Item Merge Radius: 4.0
+[12:19:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:19:45] [Server thread/INFO]: Simulation Distance: 10
+[12:19:45] [Server thread/INFO]: View Distance: 20
+[12:19:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:19:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:19:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:19:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:19:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:19:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:19:45] [Server thread/INFO]: Mob Spawn Range: 6
+[12:19:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:19:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:19:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:19:45] [Server thread/INFO]: Max TNT Explosions: 100
+[12:19:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:19:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:19:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:19:46] [Server thread/INFO]: Item Merge Radius: 4.0
+[12:19:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:19:46] [Server thread/INFO]: Simulation Distance: 10
+[12:19:46] [Server thread/INFO]: View Distance: 20
+[12:19:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:19:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:19:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:19:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:19:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:19:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Mob Spawn Range: 6
+[12:19:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:19:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:19:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:19:46] [Server thread/INFO]: Max TNT Explosions: 100
+[12:19:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:19:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:19:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:19:46] [Server thread/INFO]: Item Merge Radius: 4.0
+[12:19:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:19:46] [Server thread/INFO]: Simulation Distance: 10
+[12:19:46] [Server thread/INFO]: View Distance: 20
+[12:19:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:19:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:19:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:19:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:19:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:19:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:19:46] [Server thread/INFO]: Mob Spawn Range: 6
+[12:19:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[12:19:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:19:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:19:46] [Server thread/INFO]: Max TNT Explosions: 100
+[12:19:46] [Server thread/INFO]: Loading 0 persistent chunks...
+[12:19:46] [Server thread/INFO]: Preparing spawn area: 100%
+[12:19:46] [Server thread/INFO]: Time elapsed: 3 ms
+[12:19:46] [Server thread/INFO]: [ChallengingDeathRecovery] Enabling ChallengingDeathRecovery v1.0-SNAPSHOT
+[12:19:46] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[12:19:46] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[12:19:47] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[12:19:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
+[12:19:47] [Server thread/INFO]: [SleepNotify] Enabling SleepNotify v4.0
+[12:19:47] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.3
+[12:19:47] [Server thread/INFO]: [ServerEssentials] Enabling ServerEssentials v2.2.9
+[12:19:47] [Server thread/INFO]: [0;37;22m*********************[m
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mServer Essentials has been enabled.[m
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mConfig.yml has been initialised.[m
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mPlaceholderAPI has been enabled.[m
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mDiscordSRV Integration has been enabled.[m
+[12:19:47] [Server thread/WARN]: [ServerEssentials] Loaded class github.scarsz.discordsrv.api.events.DiscordGuildMessagePreProcessEvent from DiscordSRV v1.30.3 which is not a depend or softdepend of this plugin.
+[12:19:47] [Server thread/INFO]: [DiscordSRV] API listener me.rocketmankianproductions.serveressentials.events.DiscordMessageReceived subscribed (1 methods)
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mVault has been enabled.[m
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mRegistered ServerEssentials as Vault Economy provider.[m
+[12:19:47] [Server thread/INFO]: [ServerEssentials] Economy provider loaded: ServerEssentials
+[12:19:47] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mCommands have been enabled.[m
+[12:19:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: se [1.0]
+[12:19:47] [Server thread/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mEvents have been enabled.[m
+[12:19:47] [Server thread/INFO]: [0;37;22m*********************[m
+[12:19:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:19:47] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[12:19:47] [Server thread/INFO]: Done (1.824s)! For help, type "help"
+[12:19:47] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.3
+[12:19:47] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[12:19:47] [Craft Scheduler Thread - 1/INFO]: [0;30;1m[[0;32;1m[21mSUCCESS[m[0;30;1m] [0;37;1mServer Essentials is up to date![m
+[12:19:48] [pool-11-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[12:19:55] [Server thread/INFO]: Stopping the server
+[12:19:55] [Server thread/INFO]: Stopping server
+[12:19:55] [Server thread/INFO]: [ServerEssentials] Disabling ServerEssentials v2.2.9
+[12:19:55] [Server thread/INFO]: [0;37;22m*********************[m
+[12:19:55] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mServer Essentials has been disabled.[m
+[12:19:55] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mConfig.yml has been uninitialised.[m
+[12:19:55] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mPlaceholderAPI has been disabled.[m
+[12:19:55] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mVault has been disabled.[m
+[12:19:55] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mCommands have been disabled.[m
+[12:19:55] [Server thread/INFO]: [0;30;1m[[0;33;22m[21mWARNING[m[0;30;1m] [0;37;1mEvents have been disabled.[m
+[12:19:55] [Server thread/INFO]: [0;37;22m*********************[m
+[12:19:55] [Server thread/INFO]: [Vault] Disabling Vault v2.17.0
+[12:19:55] [Server thread/INFO]: [SleepNotify] Disabling SleepNotify v4.0
+[12:19:55] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
+[12:19:55] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[12:19:55] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[12:19:55] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:19:55] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:19:55] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:19:55] [Server thread/INFO]: [ChallengingDeathRecovery] Disabling ChallengingDeathRecovery v1.0-SNAPSHOT
+[12:19:55] [Server thread/INFO]: Saving players
+[12:19:55] [Server thread/INFO]: Saving worlds
+[12:19:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:19:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:19:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:19:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -64,7 +64,7 @@ world-settings:
     below-zero-generation-in-existing-chunks: true
     verbose: true
     merge-radius:
-      item: 2.5
+      item: 4
       exp: 3.0
     view-distance: default
     simulation-distance: default
